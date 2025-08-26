@@ -28,16 +28,19 @@ def sortString(s):
     return ''.join(sorted(s)) #join sorted characters into a string
 
 s = 'Advanced Programming and Algorithms'
+
 print(sortString(s))  
 
 >> Output: AAPaaacdddeggghiilmmmnnnoorrrstv
 
 s = 'Electronics and Communications Engineering'
+
 print(sortString(s))
 
 >> Output: CEEaacccdeeeggiiiiilmmnnnnnnnooorrssttu
 
 s = 'My Dearest Ashley'
+
 print(sortString(s))
 
 >> Output: ADMaeeehlrsstyy
@@ -84,29 +87,39 @@ def emoticons(sentence):
   ## #replace words with corresponding emoticons
   
   replaced_emoticons = " ".join([emoticon_dict.get(word, word) for word in words])
+ 
   return replaced_emoticons
 
   sentence = "You make me smile"
+  
   result = emoticons(sentence)
+  
   print(result)   
   
   >> Output:  You make me :)
 
   sentence = "She has beautiful eyes and a wide grin"
+ 
   result = emoticons(sentence)
+  
   print(result)   
   
   >> Output: She has beautiful eyes and a wide :D
 
   sentence = "I am sad because I had to retake this course"
+ 
   result = emoticons(sentence)
+  
   print(result)   
   
   >> Output: I am :(( because I had to retake this course
 
   sentence = "I get mad when people walk slowly"
+  
   result = emoticons(sentence)
+  
   print(result)   
+  
   >> Output: I get >:( when people walk slowly
 
 
