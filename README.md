@@ -129,7 +129,9 @@ def emoticons(sentence):
 
 > Unpack a given list into three variables:
   >> first → first element
+
   >> middle → all elements between the first and last
+  
   >> last → last element
 
 ### Approach:
