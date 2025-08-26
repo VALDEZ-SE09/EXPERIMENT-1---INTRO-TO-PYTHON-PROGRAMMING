@@ -1,4 +1,4 @@
-# Experiment - 1 : Basic Python Functions
+# Experiment - 1 : INTRODUCTION TO PYTHON PROGRAMMING
 
 ## Objective:
 
@@ -70,7 +70,7 @@ mad → >:(
 
 ### Start of Code:
 
-#replacing words with emoticons
+replacing words with emoticons
 
 def emoticons(sentence):
     emoticon_dict = {
@@ -80,11 +80,11 @@ def emoticons(sentence):
         "mad" : ">:("
     }
     
-  ### split sentence into words
+  split sentence into words
  
   words = sentence.split()
     
-  ## #replace words with corresponding emoticons
+  replace words with corresponding emoticons
   
   replaced_emoticons = " ".join([emoticon_dict.get(word, word) for word in words])
  
