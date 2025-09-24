@@ -21,7 +21,7 @@
 > Join the sorted letters back into a string and return it.
 
 ### Start of Code:
-
+```
 #sort letters of string into alphabetical order
 
 def sortString(s):
@@ -44,6 +44,7 @@ s = 'My Dearest Ashley'
 print(sortString(s))
 
 >> Output: ADMaeeehlrsstyy
+```
 
 ## Problem 2: Emoticon Problem
 
@@ -70,6 +71,7 @@ mad → >:(
 
 ### Start of Code:
 
+```
 #replacing words with emoticons
 
 def emoticons(sentence):
@@ -121,7 +123,7 @@ def emoticons(sentence):
   print(result)   
   
   >> Output: I get >:( when people walk slowly
-
+```
 
 ## Problem 3: Unpacking List Problem
 
@@ -141,6 +143,8 @@ def emoticons(sentence):
 > Print all three variables.
 
 ### Start of Code:
+
+```
 #example list of numbers
 my_list = [1,8,4,8,6,2]
 
@@ -167,4 +171,4 @@ first, *middle, last = my_list
 print(f"first: {first}, middle: {middle}, last: {last}")
 
 >> Output: first: C++, middle: ['Python', 'Java'], last: Visual Basic
-
+```
