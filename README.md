@@ -1,4 +1,4 @@
-# Experiment - 1 : INTRODUCTION TO PYTHON PROGRAMMING
+# EXPERIMENT 1 : INTRODUCTION TO PYTHON PROGRAMMING
 
 ## Objective:
 
@@ -6,7 +6,7 @@
 
 > To be able to apply the different codes and functions in creating a Python program
 
-## Problem 1: Alphabet Soup Problem
+## PROBLEM 1: Alphabet Soup Problem
 
 ### Expected Behavior: 
 
@@ -46,7 +46,7 @@ print(sortString(s))
 >> Output: ADMaeeehlrsstyy
 ```
 
-## Problem 2: Emoticon Problem
+## PROBLEM 2: Emoticon Problem
 
 ### Expected Behavior:
 
@@ -125,7 +125,7 @@ def emoticons(sentence):
   >> Output: I get >:( when people walk slowly
 ```
 
-## Problem 3: Unpacking List Problem
+## PROBLEM 3: Unpacking List Problem
 
 ###  Expected Behavior:
 
